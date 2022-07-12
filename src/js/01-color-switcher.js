@@ -6,17 +6,20 @@ const buttonStop = document.querySelector('[data-stop]');
 const body = document.querySelector('body');
 
 let timerId = null;
+buttonStop.disabled = true;
 
 buttonStart.addEventListener('click', () => {
+  body.style.backgroundColor = getRandomHexColor();
   timerId = setInterval(() => {
-    buttonStart.setAttribute('disabled', 'disabled');
-    console.log('in progress...');
     body.style.backgroundColor = getRandomHexColor();
   }, 1000);
+  buttonStart.disabled = true;
+  buttonStop.disabled = false;
 });
 
 buttonStop.addEventListener('click', () => {
-  buttonStart.removeAttribute('disabled');
-  console.log('stop progress');
   clearInterval(timerId);
+
+  buttonStart.disabled = false;
+  buttonStop.disabled = true;
 });
