@@ -27,6 +27,7 @@ button {
   
     text-transform: uppercase;
     cursor: pointer;
+    max-height: 45px;
     
 }
 
@@ -60,4 +61,19 @@ input {
 
 .timer {
   display: flex;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+    align-items: center;
+    max-width: 933px;
+    flex-wrap: wrap;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
