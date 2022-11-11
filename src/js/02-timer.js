@@ -37,9 +37,6 @@ const options = {
   defaultDate: new Date(),
   minuteIncrement: 1,
   onClose(selectedDates) {
-    console.log('ЭТО МАССИВ ВЫБРАННЫХ ДАТ:', selectedDates[0]);
-    // console.log('РАЗНИЦА', convertMs(selectedDates[0] - options.defaultDate));
-
     if (Date.now() > selectedDates[0]) {
       buttonStart.disabled = true;
       Notify.failure('Please choose a date in the future', { timeout: 2000 });

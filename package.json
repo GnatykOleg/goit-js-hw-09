@@ -1,21 +1,21 @@
 {
-  "name": "goit-js-hw-09",
+  "name": "js-colorwitcher-timer-promisesgenerator",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://GnatykOleg.github.io/goit-js-hw-09",
+  "homepage": "https://GnatykOleg.github.io/js-colorwitcher-timer-promisesgenerator",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+    "build": "parcel build src/*.html --public-url /js-colorwitcher-timer-promisesgenerator/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GnatykOleg/goit-js-hw-09.git"
+    "url": "git+https://github.com/GnatykOleg/js-colorwitcher-timer-promisesgenerator.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GnatykOleg/goit-js-hw-09/issues"
+    "url": "https://github.com/GnatykOleg/js-colorwitcher-timer-promisesgenerator/issues"
   },
   "dependencies": {
     "flatpickr": "^4.6.13",

@@ -17,30 +17,23 @@ img {
   max-width: 100%;
 }
 
-
 button {
-  
-    border-radius: 5px;
- 
-    padding: 10px 30px;
-    font-size: 18px;
-  
-    text-transform: uppercase;
-    cursor: pointer;
-    max-height: 45px;
-    
+  border-radius: 5px;
+
+  padding: 10px 30px;
+  font-size: 18px;
+
+  text-transform: uppercase;
+  cursor: pointer;
+  max-height: 45px;
 }
 
-
-
 input {
-  
-    border-radius: 5px;
-    border-color: black;
-    padding: 10px 0px;
-    font-size: 18px;
-    text-align: center;
-   
+  border-radius: 5px;
+  border-color: black;
+  padding: 10px 0px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .field {
@@ -55,7 +48,7 @@ input {
   margin-top: -15px;
 }
 
-.value{
+.value {
   font-size: 60px;
 }
 
@@ -67,9 +60,9 @@ form {
   display: flex;
   gap: 10px;
   justify-content: center;
-    align-items: center;
-    max-width: 933px;
-    flex-wrap: wrap;
+  align-items: center;
+  max-width: 933px;
+  flex-wrap: wrap;
 }
 
 label {
@@ -88,4 +81,3 @@ a:hover,
 a:focus {
   color: blue;
 }
-

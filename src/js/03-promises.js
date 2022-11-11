@@ -37,13 +37,7 @@ function onFormClick(event) {
       .catch(({ position, delay }) => {
         Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`);
       });
-
-    //  stepEl * i;
-    // delayEl += stepEl;
   }
 
   event.currentTarget.reset();
 }
-
-// Перед першим промісом буде одна затримка delayEl
-// Між іншими промісами затримка stepEl
